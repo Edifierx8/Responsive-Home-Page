@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-area {
+    height: 100vh;
+    background: rgb(0, 0, 0,.5);
+}
+
+.banner-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+}
+
+.banner-text {
+    position: relative;
+    text-align: center;
+    top: 20rem;
+    font-family: "Oswald", serif;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+span{
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px 50px;
+    border: 1px solid goldenrod;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.btn-work {
+    background-color: goldenrod;
+    color: #000;
+}
+
+.btn-contact:hover {
+    background-color: goldenrod;
+    transition: .5s;
+}
+ @media (max-width: 769px) {
+        a{
+            display: block;
+            margin: 1rem 4rem;
+        }
+ }
